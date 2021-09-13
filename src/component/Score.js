@@ -68,7 +68,7 @@ const Score = () => {
         else{
           const arrayOfmyscore = []
           const myscore = JSON.parse(localStorage.getItem('myscore'));
-          console.log('myscore is ', myscore)
+          
 
           if (myscore) {
             const newItem = response.data.score
